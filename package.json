@@ -2,12 +2,12 @@
   "name": "mesa-syntax",
   "theme": "syntax",
   "version": "0.0.0",
-  "description": "A short description of your syntax theme",
+  "description": "A zenburn-esque dark syntax theme or the Atom editor, based on the Notepad++ \"Waher Style\" by Kristo Vaher.",
   "keywords": [
     "syntax",
     "theme"
   ],
-  "repository": "https://github.com/atom/mesa-syntax",
+  "repository": "https://github.com/SydLambert/atom-mesa-syntax.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
