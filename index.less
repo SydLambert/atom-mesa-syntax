@@ -1,0 +1,212 @@
+@import "./styles/base.less";
+
+atom-text-editor{
+	color: @light-orange;
+
+	.syntax--embedded.syntax--source{
+		color: @light-orange;
+	}
+
+	.gutter{
+		.line-number{
+			&.cursor-line{
+				background-color: @syntax-gutter-background-color-selected;
+			}
+		}
+	}
+	.line-number{
+		opacity: 1;
+	}
+	.gutter .line-number.folded,
+    .gutter .line-number:after,
+	.fold-marker:after {
+      color: magenta;
+    }
+}
+
+.syntax--entity{
+	&.syntax--name{
+		&.syntax--tag{
+			text-decoration: none;
+		}
+		&.syntax--type{
+			text-decoration: none;
+			color: @red-orange;
+		}
+	}
+	&.syntax--separator {
+	  background-color: @gray;
+	}
+	&.syntax--name.syntax--function {
+      color: @light-orange;
+    }
+}
+
+.syntax--punctuation{
+	&.syntax--definition{
+		&.syntax--comment{
+			color: @green;
+		}
+		&.syntax--bracket{
+			color: @orange;
+		}
+	}
+	&.syntax--dictionary{
+		color: @orange;
+	}
+	&.syntax--terminator {
+      color: @orange;
+    }
+	&.syntax--section {
+      color: @orange;
+    }
+	&.syntax--section {
+		&.syntax--embedded {
+			color: @orange;
+		}
+	}
+	&.syntax--separator{
+		color: @orange;
+	}
+	&.syntax--array{
+		&.syntax--begin, &.syntax--end{
+			color: @orange
+		}
+	}
+}
+.syntax--comment {
+	color: @green;
+}
+.syntax--storage {
+	color: @red-orange;
+}
+.syntax--function {
+	color: @orange;
+}
+.syntax--variable{
+	color: @light-orange;
+	&.syntax--parameter.syntax--function {
+	  color: @light-orange;
+	}
+}
+
+.syntax--variable{
+	color: @light-orange;
+}
+
+.syntax--variable &.syntax--parameter.syntax--function{
+	color: @light-orange;
+}
+
+.syntax--string {
+	color: @syntax-text-color;
+}
+
+
+
+.syntax--constant {
+	color: @light-orange;
+	&.syntax--numeric {
+      color: @blue;
+  	}
+	&.syntax--boolean{
+		color: @red-orange;
+	}
+}
+
+.syntax--meta {
+	&.syntax--class {
+		color: @red-orange;
+	}
+	&.syntax--square{
+		color: @orange;
+	}
+	&.syntax--brace{
+		color: @orange;
+	}
+}
+.syntax--support {
+	&.syntax--class {
+		color: @red-orange;
+	}
+	&.syntax--function  {
+      color: @light-orange;
+
+      &.syntax--any-method {
+        color: @light-orange;
+      }
+    }
+}
+
+.syntax--property-value.syntax--css{
+	color: @light-gray;
+}
+
+.syntax--constant.syntax--css{
+	color: @very-light-gray;
+}
+
+.syntax--entity.syntax--other.syntax--attribute-name{
+	color: @light-orange;
+}
+.syntax--punctuation.syntax--definition.syntax--entity.syntax--css{
+	color: @orange;
+}
+.syntax--entity.syntax--other.syntax--attribute-name.syntax--id{
+	color: @red-orange;
+}
+.syntax--variable.syntax--less{
+	color: @dark-orange;
+}
+.syntax--punctuation.syntax--variable.syntax--less{
+	color: @orange;
+}
+
+.syntax--entity.syntax--name.syntax--tag{
+	color: @dark-orange;
+}
+
+.syntax--keyword {
+	&.syntax--operator {
+      color: @orange;
+    }
+	&.syntax--new {
+      color: @red-orange;
+    }
+	&.syntax--control {
+      color: @red-orange;
+    }
+}
+
+.syntax--delimiter {
+	color: @orange;
+}
+
+.syntax--keyword.syntax--other.syntax--unit{
+	color: @blue;
+}
+
+.syntax--type.syntax--property-name.syntax--css{
+	color: @dark-blue;
+}
+
+.syntax--constant.syntax--numeric.syntax--css{
+	color: @blue;
+}
+
+atom-text-editor::shadow .bracket-matcher .region {
+  border-radius: 3px;
+  background-color: @translucent-orange;
+  border: 1px solid @translucent-orange;
+  z-index: 100;
+}
+
+atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line, :host(.is-focused) .line-number.cursor-line-no-selection, :host(.is-focused) .line.cursor-line {
+    background-color: @syntax-gutter-background-color-selected;
+}
+
+.syntax--variable.syntax--language.syntax--this{
+	color: @red-orange;
+}
+
+@import "./styles/java.less";
