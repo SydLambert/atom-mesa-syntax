@@ -13,4 +13,5 @@ Easy on the eyes with a minimal color palette consisting mainly of oranges and y
 * CSS
 * Less
 * PHP (mostly)
-^more to come^
+
+more to come

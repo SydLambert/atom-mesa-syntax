@@ -169,14 +169,14 @@ atom-text-editor{
 	color: @orange;
 }
 
-atom-text-editor::shadow .bracket-matcher .region {
+atom-text-editor.editor .bracket-matcher .region {
   border-radius: 3px;
   background-color: @translucent-orange;
   border: 1px solid @translucent-orange;
   z-index: 100;
 }
 
-atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line, :host(.is-focused) .line-number.cursor-line-no-selection, :host(.is-focused) .line.cursor-line {
+atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line,atom-text-editor .line-number.cursor-line-no-selection,atom-text-editor .line.cursor-line {
     background-color: @syntax-gutter-background-color-selected;
 }
 
