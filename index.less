@@ -24,6 +24,10 @@ atom-text-editor{
     }
 }
 
+.syntax--text.syntax--plain{
+	color: @very-light-gray;
+}
+
 .syntax--entity{
 	&.syntax--name{
 		&.syntax--tag{
@@ -48,29 +52,29 @@ atom-text-editor{
 			color: @green;
 		}
 		&.syntax--bracket{
-			color: @orange;
+			color: @dark-orange;
 		}
 	}
 	&.syntax--dictionary{
-		color: @orange;
+		color: @dark-orange;
 	}
 	&.syntax--terminator {
-      color: @orange;
+      color: @dark-orange;
     }
 	&.syntax--section {
-      color: @orange;
+      color: @dark-orange;
     }
 	&.syntax--section {
 		&.syntax--embedded {
-			color: @orange;
+			color: @dark-orange;
 		}
 	}
 	&.syntax--separator{
-		color: @orange;
+		color: @dark-orange;
 	}
 	&.syntax--array{
 		&.syntax--begin, &.syntax--end{
-			color: @orange
+			color: @dark-orange
 		}
 	}
 }
@@ -81,7 +85,7 @@ atom-text-editor{
 	color: @red-orange;
 }
 .syntax--function {
-	color: @orange;
+	color: @dark-orange;
 }
 .syntax--variable{
 	color: @light-orange;
@@ -119,10 +123,10 @@ atom-text-editor{
 		color: @red-orange;
 	}
 	&.syntax--square{
-		color: @orange;
+		color: @dark-orange;
 	}
 	&.syntax--brace{
-		color: @orange;
+		color: @dark-orange;
 	}
 }
 .syntax--support {
@@ -138,37 +142,9 @@ atom-text-editor{
     }
 }
 
-.syntax--property-value.syntax--css{
-	color: @light-gray;
-}
-
-.syntax--constant.syntax--css{
-	color: @very-light-gray;
-}
-
-.syntax--entity.syntax--other.syntax--attribute-name{
-	color: @light-orange;
-}
-.syntax--punctuation.syntax--definition.syntax--entity.syntax--css{
-	color: @orange;
-}
-.syntax--entity.syntax--other.syntax--attribute-name.syntax--id{
-	color: @red-orange;
-}
-.syntax--variable.syntax--less{
-	color: @dark-orange;
-}
-.syntax--punctuation.syntax--variable.syntax--less{
-	color: @orange;
-}
-
-.syntax--entity.syntax--name.syntax--tag{
-	color: @dark-orange;
-}
-
 .syntax--keyword {
 	&.syntax--operator {
-      color: @orange;
+      color: @dark-orange;
     }
 	&.syntax--new {
       color: @red-orange;
@@ -179,19 +155,18 @@ atom-text-editor{
 }
 
 .syntax--delimiter {
-	color: @orange;
+	color: @dark-orange;
 }
 
 .syntax--keyword.syntax--other.syntax--unit{
 	color: @blue;
 }
 
-.syntax--type.syntax--property-name.syntax--css{
-	color: @dark-blue;
+.syntax--entity.syntax--other.syntax--attribute-name{
+	color: @light-orange;
 }
-
-.syntax--constant.syntax--numeric.syntax--css{
-	color: @blue;
+.syntax--entity.syntax--name.syntax--tag{
+	color: @orange;
 }
 
 atom-text-editor::shadow .bracket-matcher .region {
@@ -210,3 +185,6 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 @import "./styles/java.less";
+@import "./styles/css.less";
+@import "./styles/html.less";
+@import "./styles/php.less";
