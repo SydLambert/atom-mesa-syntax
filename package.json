@@ -2,7 +2,7 @@
   "name": "mesa-syntax",
   "theme": "syntax",
   "version": "0.2.1",
-  "description": "A zenburn-esque dark syntax theme or the Atom editor, based on the Notepad++ \"Waher Style\" by Kristo Vaher.",
+  "description": "Zenburn-esque dark & orange theme, based on the Notepad++ \"Waher Style\" by Kristo Vaher.",
   "keywords": [
     "syntax",
     "theme"

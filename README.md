@@ -4,9 +4,11 @@ A zenburn-esque syntax theme or the Atom editor, based on the Notepad++ theme ["
 
 Easy on the eyes with a minimal color palette consisting mainly of oranges and yellows.
 
+![View on Atom.io](https://atom.io/themes/mesa-syntax)
+
 ![A screenshot of mesa-syntax](https://raw.githubusercontent.com/SydLambert/atom-mesa-syntax/master/screenshot.png)
 
-##Fully supported languages
+## Supported languages
 * Java
 * JavaScript
 * HTML
@@ -14,4 +16,9 @@ Easy on the eyes with a minimal color palette consisting mainly of oranges and y
 * Less
 * PHP (mostly)
 
-more to come
+## Planned languages for the near future
+* Python
+* Markdown
+* C
+
++more
