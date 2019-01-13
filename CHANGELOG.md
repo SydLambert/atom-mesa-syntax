@@ -2,7 +2,8 @@
 * General cleanup
 * Added PHP
 * Added Markdown
-* Fixed a few bugs, like !important & meta in CSS, and differentiating between function & => in JS
+* Fixed !important & meta in CSS and differentiating between function & => in JS, amongst other bugs.
+* Also fixed the blocky white scrollbar that appeared sometimes
 
 ## 0.2.1 - Patch
 * Removed deprecated selectors to decrease startup time
