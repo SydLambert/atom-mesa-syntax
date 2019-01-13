@@ -1,3 +1,6 @@
+## 0.3.2 - Version fix
+* Fixing messy versioning
+
 ## 0.3.1 - More languages
 * General cleanup
 * Added PHP
