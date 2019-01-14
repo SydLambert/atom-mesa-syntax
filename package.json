@@ -1,7 +1,7 @@
 {
   "name": "mesa-syntax",
   "theme": "syntax",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Zenburn-esque dark & orange theme, based on the Notepad++ \"Waher Style\" by Kristo Vaher.",
   "keywords": [
     "syntax",
